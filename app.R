@@ -9,7 +9,7 @@ ui = fluidPage(
 server = function(input, output) {
   output$plot <- renderLeaflet({ 
     # use www folder 
-    temp = "WDPA_50NewCol/{z}/{x}/{-y}.png"
+    # temp = "WDPA_50NewCol/{z}/{x}/{-y}.png"
     ## use github 
     temp = "https://raw.githubusercontent.com/wajahat16079/birdRangerTiles/main/rich_all_clean/{z}/{x}/{-y}.png"
     
