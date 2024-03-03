@@ -13,6 +13,7 @@ server = function(input, output) {
     ## use github 
     temp = "https://raw.githubusercontent.com/wajahat16079/birdRangerTiles/main/rich_all_clean/{z}/{x}/{-y}.png"
     temp = "https://raw.githubusercontent.com/wajahat16079/birdRangerTiles/main/Underprotected_8Bit/{z}/{x}/{-y}.png"
+    temp = "https://raw.githubusercontent.com/wajahat16079/birdRangerTiles/main/WDPA_10/{z}/{x}/{-y}.png"
     
     leaflet() %>%
       addProviderTiles(providers$Esri.WorldTopoMap, group = "base") %>%
